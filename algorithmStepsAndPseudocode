@@ -1,0 +1,28 @@
+Searching Algorithm
+
+Problem = searching for specific value in large data
+
+Solution =
+Step1: Start
+Step2: Input text, pattern
+Step3: Search through text
+Step4: Search through pattern
+Step5: Is character in pattern == character in text?
+        if so increament match_cout
+Step6: Is match_cout == length of pattern?
+        if so print pattern found!
+Step7: End
+
+
+Pseudocode
+
+define text, pattern
+if entire text not searched
+  create match_count =0
+  if entire pattern not searched
+    if pattern character == pattern text
+      increament match_cout
+  if match_count == pattern length
+    print pattern found!
+else 
+  pattern not found!
